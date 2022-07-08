@@ -1,7 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
-    <h1>hello world</h1>
     <input class="border-2" v-model="query" type="text" @change="search" />
 
     <div>
